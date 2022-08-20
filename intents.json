@@ -1,0 +1,326 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "bonjour",
+        "bonsoir",
+        "salut",
+        "hi",
+        "Hello"
+      ],
+      "responses": [
+       [ "bonjour :-)"],
+        ["bonjour, merci pour ta visite"]
+        
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        ["See you later, thanks for visiting"],
+        ["Have a nice day"],
+        ["Bye! Come back again soon."]
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "MERCI",
+        "MERCI beaucoup",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+       [ "Happy to help!"],
+       [ "Any time!"],
+       [ "My pleasure"]
+      ]
+    },
+    
+    {
+      "tag": "Objectifs_2SCL ",
+      "patterns": [
+        "Quelles sont les Objectifs de la formation de la filière Smart Supply Chain and Logistics 2SCL",
+        "Quelles sont les Objectifs de la formation de cette filière",
+        "Quelles sont les Objectifs de la  filière 2SCL",
+        "Ou se focalise la formation de la filière Smart Supply Chain and Logistics 2SCL",
+        "Quelle est le plan de cette formation de la filière filière Smart Supply Chain and Logistics 2SCL",
+        "Qu’est ce que permet la formation de la filière filière Smart Supply Chain and Logistics 2SCL"
+      ],
+      "responses": [
+        ["La filière 2SCL a la particularité d’assurer le couplage des outils et des techniques de gestion de la chaîne logistique (Supply Chain Management, avec les fondements de l’informatique et les techniques de l’intelligence artificielle."
+    ]  ]
+    },
+    {
+      "tag": "accès",
+      "patterns": [
+        "Quelles sont les conditions d'accès à cette filière 2SCL",
+        "Comment accéder à la filière filière Smart Supply Chain and Logistics 2SCL",
+        "Qu’est ce qui est demandé pour accéder à cette filière",
+        "Quelles sont les normes à avoir pour intégrer à cette filière ",
+        "quelles est conditions"
+      ],
+      "responses": [
+      [  "1. Candidats ayant validé les deux années préparatoires au cycle ingénieur INP ",
+        
+        "2. Candidats ayant réussi le concours national commun d’admission dans les établissements de formation d’ingénieurs et établissements assimilés ",
+        "3. DEUG : SM et SMI (accès sur concours",
+        "4. Licence SMA ou SMI (accès sur titre ",
+        "5. Licence Scientifique et Technique (accès sur titre) ",
+        "6. Bachelor (SMA ou SMI (accès sur titre)"
+      ]]
+    },
+    {
+      "tag": "métiers",
+      "patterns": [
+        "Quelles sont Débouchés et retombées de la formation",
+        "Quelles sont les différents métiers Smart Supply Chain and Logistics 2SCL",
+        "Quelles tendances du marché de l’emploi et recrutement pour cette formation"
+      ],
+      "responses": [
+        ["Dans toute entreprise privée ou publique nécessitant des ingénieurs à la fois logisticiens et informaticiens ayant une réelle capacité de résoudre des problèmes décision ls, les ingénieurs ENSIAS 2SCL seront aptes pour occuper les métiers suivants : ", 
+        "● Les métiers de la logistique de soutien ", 
+        "● Analystes de fiabilité, ", 
+        "● Logisticiens opérationnels ", 
+        "● Les métiers du transport Gestionnaire de flotte de camions ", 
+        "● Responsable du planning ", 
+        "● Les métiers de l’entreposage ",
+        "● Les métiers des systèmes d’information"
+     ] ]
+    },
+    {
+      "tag": "compétences",
+      "patterns": [
+        "Quelles sont compétences majeures à acquérir ",
+        "Quelles sont les exigences à avoir pour réussir dans cette filière ",
+        "Qu'est ce qui est requis dans un etudiant pour avoir un futur dans ce domaine"
+      ],
+      "responses": [
+        ["De deux semestres dédiés à l’acquisition de connaissances et de compétences solides indispensables à tout informaticien, l’élève ingénieur de la filière 2SCL devra acquérir les compétences et les outils indispensables lui permettant de maîtriser la gestion d’une chaîne logistique afin d’accroître la rentabilité et le service rendu aux clients. Il pourra ainsi exercer des fonctions en entreprises tournées vers la conception et la gestion globale de systèmes logistiques. Ainsi, en plus d’acquérir les connaissances de base en informatique et en aide à la décision, le diplômé de la filière 2SCL devra être en mesure de : ",
+        "● Comprendre les enjeux de la prise de décision ;", 
+        "● Identifier les différentes composantes de la supply chain globale (approvisionnement, fabrication et production, distribution, ERP, … et les problèmes liés à sa gestion ", 
+        "● Comprendre les compétences requises pour gérer les risques, ", 
+        "● l’innovation et la dynamique de la supply chain dans l’économie mondiale actuelle. Développer des compétences en informatique et en technologie de l’information ", 
+        "● Développer de solides compétences analytiques et une approche logique de la résolution de problèmes. ", 
+        "● Identifier et analyser les exigences fonctionnelles et non fonctionnelles des organisations numériques (industries et entreprises. ", 
+        "● Développer de solides compétences en communication orale et écrite, pour permettre des échanges efficaces entre différents domaines fonctionnels"
+      ]]
+    },
+    {
+      "tag": "modules",
+      "patterns": [
+        "Quelles sont les modules de cette filière par semestre de 2SCL",
+        "Quelles sont les matières étudiées dans cette filière",
+        "Quelles sont les modules etudier a 2SCL"
+      ],
+      "responses": [
+        ["choisir le semestre pour affiché ses modules:",
+        "semestre 1",
+        "semestre 2",
+        "semestre 3",
+        "semestre 4",
+        "semestre 5",
+        "semestre 6"]
+      ]
+    },
+    {
+      "tag": "semestre 1",
+      "patterns": [
+        "semestre 1",
+       "les module de semestre 1",
+       "S1 ",
+       "les modules de S1",
+       "les modules etudier en Semestre1",
+       "S 1 "
+      ],
+      "responses": [
+     [   "Pour le semestre 1 :",
+      "● Algorithmique & Programmation ",
+      "● Structures de données ",
+      "● Electronique numérique ",
+      "● Architecture des ordinateurs ",
+      "● Eléments de Recherche opérationnelle ",
+      "● Probabilité Appliquées ",
+      "● Gestion, Economie et Finance ",
+      "● Langue et communication"]
+      ]
+    },
+    {
+      "tag": "semestre 2",
+      "patterns": [
+        "semestre 2",
+       "les module de semestre 2",
+       "les modules de S2",
+       "les modules etudier en Semestre2"
+      ],
+      "responses": [
+     [    "       Semestre 2 :",
+      "● Bases de données Relationnelles ",
+      "● Informatique théorique ",
+      "● Réseaux de communication ",
+      "● Système d’exploitation ",
+      "● Programmation Orientée Objet ",
+      "● Projet de filière ",
+      "● Gestion, Economie et Finance ",
+      "● Langue et communication "]
+      ]
+    },
+    {
+      "tag": "semestre 3",
+      "patterns": [
+        "semestre 3",
+       "les module de semestre 3",
+       "les modules de S3",
+       "les modules etudier en Semestre3"
+      ],
+      "responses": [
+     [   "Semestre 3: ",
+      "● Système d’information ",
+      "● Management industriel et logistique ",
+      "● Génie Logiciel Objet ",
+      "● Méthodes Numériques Avancées ",
+      "● Statistiques et Analyse de Données ",
+      "● Techniques d’optimisation ",
+      "● Culture Entrepreneuriale ",
+      "● Langues et communication "]
+      ]
+    },
+    {
+      "tag": "semestre 4 ",
+      "patterns": [
+        "semestre 4 ",
+       "les module de semestre 4",
+       "les modules de S4",
+       "les modules etudier en Semestre4"
+      ],
+      "responses": [
+     [   "     Semestre 4 : ",
+      "● Chaîne logistique stochastique ",
+      "● Modélisation de la chaîne logistique ",
+      "● Système d’information logistique ",
+      "● Techniques avancées d’optimisation ",
+      "● Réseaux logistiques et entreposage ",
+      "● Projet de fin d’année ",
+      "● Droit et Management Langue et communication ", 
+      "● Atelier de Modélisation "]
+      ]
+    },
+    {
+      "tag": "semestre 5 ",
+      "patterns": [
+        "semestre 5 ",
+       "les module de semestre 5 ",
+       "les modules de S5",
+       "les modules etudier en Semestre5"
+      ],
+      "responses": [
+     [   "Semestre 5: ",
+       
+      "● Projet fédérateur ",
+      "● Simulation de la chaîne logistique ",
+      "● Système d’information logistique ",
+      "● Systèmes logistiques prédictifs ",
+      "● E-Logistique Amélioration des performances de la chaîne logistique ",
+      "● Anglais et stage de 2A "]
+      ]
+    },
+    {
+      "tag": "semestre 6 ",
+      "patterns": [
+       "les module de semestre 6",
+       "semestre 6 ",
+       "les modules de S6",
+       "les modules etudier en Semestre6"
+      ],
+      "responses": [
+     [   "    Semestre 6 ",
+      "● Projet de Fin d'Étude "]
+      ]
+    },
+    {
+      "tag": "Pré_requis",
+      "patterns": [
+        "Quelles sont les Pré_requis majeures à acquérir ",
+        "les pre-requis",
+        "les prerequis",
+        "comment integré cette filiére",
+        "comment integré la  filiére 2SCL",
+        "quelles sont les Pré-requis pédagogiques spécifiques"
+       
+      ],
+      "responses": [
+       [ "Les prés requis pédagogiques pour le concours DEUG sont ceux des quatre premiers semestres des licences (SMA) ou (SMI).",
+        "Quant à l’accès sur titre, les prés requis pédagogiques sont ceux de la licence SMI.", 
+        "L’inscription à la filière ingénieur Smart Supply Chain and Logistics est annuelle", 
+        "Les prérequis de la filière correspondent aux enseignements dispensés dans les filières MP, PSI et TSI des classes préparatoires aux grandes écoles des ingénieurs "
+       ]]
+    },
+    {
+      "tag": "mobilité ",
+      "patterns": [
+       "quelles sont les mobilités offrir par l'ensias",
+       "quelles sont les mobilités offrir par la filiére 2scl",
+       "quelles sont les mobilités offrir par cette filiere",
+       "y a t-il de mobilité a l'ensias",
+       "y a t-il de mobilité a 2SCL",
+       "y ont t-ils des mobilités a l'ensias",
+       "y aon t-ils de mobilités a 2SCL"
+      ],
+      "responses": [
+     [   "Les élèves-ingénieurs de toute filière de l’ENSIAS du cycle ingénieur peuvent bénéficier d’une mobilité sortante à l’international s’ils remplissent les conditions de pré-sélection en vigueur à l’ENSIAS et dans les écoles ou universités partenaires",
+      "En France",
+      "En Allemagne ",
+      "En Finlande ",
+      "En Canada ",
+      "En Italie  ",
+      "En Espagne "]
+      ]
+    }
+    ,
+    {
+      "tag": "stage ",
+      "patterns": [
+       "combien de stage on doit effectue pendant les 3 trois années",
+       "les stages sont ils obligatores ?",
+       "stage de deuxieme anneé",
+       "stage du premiere anneé ?"
+      ],
+      "responses": [
+     [ 
+         "a l'ENSIAS les stages sont obligatoires. Pour la première et la deuxiéme année , le stage est d’une durée d’au moins 6 semaines et doit se passer dans une entreprise  ",
+      "Le stage  comporte trois parties aussi importante l’une que l’autre ",
+      "Le stage à effectuer ",
+      "Le rapport de stage ",
+      "La soutenance du stage  ",
+      "et enfin Chaque stage est encadré par un représentant de l’entreprise."
+    ]
+      ]
+    },
+    {
+      "tag": "pfe ",
+      "patterns": [
+       "quels est la durée de stage de pfe ?",
+       "projet de fin d'étude",
+       "domaine de stage pfe ( projet de fin d'étude )",
+       "ou se passe Stage de fin d'étude",
+       "le lieu de stage de fin d'etude"
+      ],
+      "responses": [
+     [ "Le PFE est une étape importante de la formation de tout ingénieur avant de d’intégrer le marché de l’emploi",
+      "Le stage de PFE doit se passer de préférence dans une entreprise. Certains PFE peuvent avoir lieu dans un laboratoire de recherche à l’étranger. ",
+      "un stage de projet de fin d’étude d’une durée de quatre à six mois",
+      "Le stage de PFE doit se passer de préférence dans une entreprise. Certains PFE peuvent avoir lieu dans un laboratoire de recherche à l’étranger.  ",
+      "Chaque stage de PFE est co-encadré par un enseignant et par un représentant de l’entreprise",
+      "et enfin Chaque stage est encadré par un représentant de l’entreprise."
+    ]
+      ]
+    }
+  ]
+}
